@@ -1,3 +1,5 @@
+[![中文](https://img.shields.io/badge/语言-中文-red)](README.zh-CN.md) 
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
 # Salmonia
 
 A UCI chess engine built on top of [Stockfish](https://github.com/official-stockfish/Stockfish) source code, featuring custom search algorithms, evaluation, NNUE integration, and Polyglot opening book support.
