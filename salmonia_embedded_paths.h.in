@@ -1,0 +1,17 @@
+#ifndef SALMONIA_EMBEDDED_PATHS_H
+#define SALMONIA_EMBEDDED_PATHS_H
+
+
+/*
+    由 CMake configure_file 生成的绝对路径宏
+    （正斜杠形式，可直接用于 GAS .incbin 指令）
+
+    源模板：salmonia_embedded_paths.h.in
+*/
+
+#define SALMONIA_EMBEDDED_NNUE_FILE "@SALMONIA_NNUE_ABS_PATH@"
+
+#define SALMONIA_EMBEDDED_BOOK_FILE "@SALMONIA_BOOK_ABS_PATH@"
+
+
+#endif
